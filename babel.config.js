@@ -12,11 +12,21 @@ module.exports = {
     [
       'module-resolver',
       {
+        root: '.',
         alias: {
-          '@screens': './src/screens',
           '@components': './src/components',
-          '@utils': './src/utils',
           '@hooks': './src/hooks',
+          '@routes': './src/routes',
+          '@screens': './src/screens',
+          '@theme': './src/theme',
+          '@domain': './src/domain',
+          '@brand': './src/brand',
+          '@api': './src/api',
+          '@types': './src/types',
+          '@utils': './src/utils',
+          '@infra': './src/infra',
+          '@services': './src/services',
+          '@test': './src/test',
           '@assets': './src/assets',
         },
       },
